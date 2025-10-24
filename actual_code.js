@@ -61,7 +61,7 @@ function generate() {
             document.body.style.color = "white"
         }
 
-        else if (coins === 160) {
+        else if (coins === 180) {
             document.body.style.backgroundImage = "url('optical_illusion.jpg')"
             document.body.style.color = "black"
         }
@@ -135,4 +135,5 @@ function enter_clicked() {
 
 function redirect() {
     window.location.href = 'http://127.0.0.1:5500/excusify/background.html'
+
 }
